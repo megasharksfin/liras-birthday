@@ -19,7 +19,7 @@ export class EmergencyComponent implements OnInit {
     this.isClicked = true;
 
     const audio = new Audio();
-    audio.src = '../../assets/emergency.wav';
+    audio.src = '/assets/emergency.wav';
     audio.load();
     audio.play();
 
