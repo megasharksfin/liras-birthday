@@ -4,7 +4,7 @@ import { HomeComponent } from './_pages/home/home.component';
 import { MessageContentComponent } from './_pages/message-content/message-content.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'happy-birthday-lira' },
+  { path: '', redirectTo: 'happy-birthday-lira', pathMatch: 'full' },
   { path: 'happy-birthday-lira', component: HomeComponent },
   {
     path: '',
