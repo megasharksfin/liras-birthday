@@ -45,6 +45,6 @@ export class MessageComponent implements OnInit {
   }
 
   skip(): void {
-    this.router.navigate([ '/happy-birthday-lira' ]);
+    this.router.navigate([ '/emergency' ]);
   }
 }
