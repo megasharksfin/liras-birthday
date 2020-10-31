@@ -4,14 +4,14 @@ import { HomeComponent } from './_pages/home/home.component';
 import { MessageContentComponent } from './_pages/message-content/message-content.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'emergency', pathMatch: 'full' },
-  { path: 'emergency', component: HomeComponent },
   {
     path: '',
     children: [
-      { path: 'message', component: MessageContentComponent },
+      { path: 'emergency', component: HomeComponent },
+      { path: '', redirectTo: 'emergency', pathMatch: 'full' },
     ],
   },
+  { path: 'message', component: MessageContentComponent },
 ];
 
 @NgModule({
