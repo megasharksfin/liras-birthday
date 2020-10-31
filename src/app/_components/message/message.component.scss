@@ -41,7 +41,7 @@
 }
 
 .skip{
-  background-image: url('/assets/skip.png');
+  background-image: url('../assets/skip.png');
   background-size: 120px 40px;
   height: 40px;
   width: 120px;
@@ -49,14 +49,14 @@
 }
 
 .yes{
-  background-image: url('/assets/vote-yes.png');
+  background-image: url('../assets/vote-yes.png');
   background-size: 75px 75px;
   height: 75px;
   width: 75px;
 }
 
 .no{
-  background-image: url('/assets/vote-no.png');
+  background-image: url('../assets/vote-no.png');
   background-size: 75px 75px;
   height: 75px;
   width: 75px;
