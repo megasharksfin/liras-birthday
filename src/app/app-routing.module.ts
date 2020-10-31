@@ -8,7 +8,7 @@ const routes: Routes = [
     path: '',
     children: [
       { path: 'happy-birthday-lira', component: HomeComponent },
-      { path: '/', redirectTo: 'happy-birthday-lira', pathMatch: 'full' },
+      { path: '', redirectTo: 'happy-birthday-lira', pathMatch: 'full' },
     ],
   },
   {
