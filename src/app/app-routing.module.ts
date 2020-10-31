@@ -4,13 +4,8 @@ import { HomeComponent } from './_pages/home/home.component';
 import { MessageContentComponent } from './_pages/message-content/message-content.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    children: [
-      { path: 'emergency', component: HomeComponent },
-      { path: '', redirectTo: 'emergency', pathMatch: 'full' },
-    ],
-  },
+  { path: '', redirectTo: 'emergency', pathMatch: 'full' },
+  { path: 'emergency', component: HomeComponent },
   { path: 'message', component: MessageContentComponent },
 ];
 
