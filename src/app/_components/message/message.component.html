@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <div class="paragraph"> {{ message }} </div>
+  <div class="vote">
+    <button class="icon-btn skip" type="button" (click)="skipVote()"></button>
+    <button class="icon-btn yes" type="button" *ngIf="isSkip" (click)="skip()"></button>
+    <button class="icon-btn no" type="button" *ngIf="isSkip" (click)="noSkip()"></button>
+  </div>
+</div>

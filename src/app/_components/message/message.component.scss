@@ -1,0 +1,67 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 90%;
+  padding: 5vh 0 5vh 2vw;
+}
+
+.paragraph{
+  font-size: 0.57em;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 1vw 20px 1vw;
+  background-color: white;
+  white-space: pre-line;
+  box-shadow: 4px 4px;
+}
+
+.vote{
+  margin-top: auto;
+  margin-bottom: 5vh;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  > :not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.icon-btn{
+  border: none;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+.skip{
+  background-image: url('../../../assets/skip.png');
+  background-size: 120px 40px;
+  height: 40px;
+  width: 120px;
+  align-self: flex-end;
+}
+
+.yes{
+  background-image: url('../../../assets/vote-yes.png');
+  background-size: 75px 75px;
+  height: 75px;
+  width: 75px;
+}
+
+.no{
+  background-image: url('../../../assets/vote-no.png');
+  background-size: 75px 75px;
+  height: 75px;
+  width: 75px;
+}
+
+button{
+  outline: none;
+}
