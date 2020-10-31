@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "liras-birthday"
+    }
+  },
+  "defaultProject": "liras-birthday",
+  "cli": {
+    "analytics": false
+  }
 }
