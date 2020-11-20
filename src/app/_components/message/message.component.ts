@@ -25,7 +25,7 @@ export class MessageComponent implements OnInit {
 
     Oh and I hope you like the gift that I sent. Sana magamit mo and maenjoy mo hehe. The jacket is mine pero di ko siya nalabhan sorry hehehehehe.
 
-    Anyway, I hope you have fun and you stay healthy. I'm proud of you, love. Ingat ka lagi on the frontlines!!
+    Anyway, I hope you have fun and you stay healthy. I'm proud of you, love. Ingat ka lagi on the frontlines!
 
     - Marki
 
